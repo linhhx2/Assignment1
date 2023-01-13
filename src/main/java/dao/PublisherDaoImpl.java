@@ -41,8 +41,7 @@ public class PublisherDaoImpl implements PublisherDao {
 
     @Override
     public List<Publisher> getAll() {
-        // TODO
-        return null;
+        return this.publishers;
     }
 
     public void flush() throws IOException {
